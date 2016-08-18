@@ -1,0 +1,9 @@
+C:\TiSelvagem\TiSelvagem.Aplicacao\bin\Release\TiSelvagem.Aplicacao.dll
+C:\TiSelvagem\TiSelvagem.Aplicacao\bin\Release\TiSelvagem.Aplicacao.pdb
+C:\TiSelvagem\TiSelvagem.Aplicacao\bin\Release\TiSelvagem.Dominio.dll
+C:\TiSelvagem\TiSelvagem.Aplicacao\bin\Release\TiSelvagem.Repositorio.dll
+C:\TiSelvagem\TiSelvagem.Aplicacao\bin\Release\TiSelvagem.Dominio.pdb
+C:\TiSelvagem\TiSelvagem.Aplicacao\bin\Release\TiSelvagem.Repositorio.pdb
+C:\TiSelvagem\TiSelvagem.Aplicacao\obj\Release\TiSelvagem.Aplicacao.csprojResolveAssemblyReference.cache
+C:\TiSelvagem\TiSelvagem.Aplicacao\obj\Release\TiSelvagem.Aplicacao.dll
+C:\TiSelvagem\TiSelvagem.Aplicacao\obj\Release\TiSelvagem.Aplicacao.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BANCOESTUDOModelStoreContainer" CdmEntityContainer="BANCOESTUDOEntities">
+    <EntitySetMapping Name="TB_CLIENTE">
+      <EntityTypeMapping TypeName="BANCOESTUDOModel.TB_CLIENTE">
+        <MappingFragment StoreEntitySet="TB_CLIENTE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="CELULAR" ColumnName="CELULAR" />
+          <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="OBSERVACAO" ColumnName="OBSERVACAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

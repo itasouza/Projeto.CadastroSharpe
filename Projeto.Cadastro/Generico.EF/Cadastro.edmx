@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BANCOESTUDOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TB_CLIENTE">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="50" />
+          <Property Name="ENDERECO" Type="varchar" MaxLength="50" />
+          <Property Name="CEP" Type="varchar" MaxLength="10" />
+          <Property Name="CIDADE" Type="varchar" MaxLength="50" />
+          <Property Name="CELULAR" Type="varchar" MaxLength="10" />
+          <Property Name="TELEFONE" Type="varchar" MaxLength="10" />
+          <Property Name="EMAIL" Type="varchar" MaxLength="50" />
+          <Property Name="CONTATO" Type="varchar" MaxLength="50" />
+          <Property Name="OBSERVACAO" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="BANCOESTUDOModelStoreContainer">
+          <EntitySet Name="TB_CLIENTE" EntityType="Self.TB_CLIENTE" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BANCOESTUDOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TB_CLIENTE">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CEP" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CIDADE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CELULAR" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TELEFONE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CONTATO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OBSERVACAO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="BANCOESTUDOEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_CLIENTE" EntityType="Self.TB_CLIENTE" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BANCOESTUDOModelStoreContainer" CdmEntityContainer="BANCOESTUDOEntities">
+          <EntitySetMapping Name="TB_CLIENTE">
+            <EntityTypeMapping TypeName="BANCOESTUDOModel.TB_CLIENTE">
+              <MappingFragment StoreEntitySet="TB_CLIENTE">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="CELULAR" ColumnName="CELULAR" />
+                <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+                <ScalarProperty Name="OBSERVACAO" ColumnName="OBSERVACAO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

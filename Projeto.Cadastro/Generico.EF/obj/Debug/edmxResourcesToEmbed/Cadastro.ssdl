@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BANCOESTUDOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TB_CLIENTE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOME" Type="varchar" MaxLength="50" />
+    <Property Name="ENDERECO" Type="varchar" MaxLength="50" />
+    <Property Name="CEP" Type="varchar" MaxLength="10" />
+    <Property Name="CIDADE" Type="varchar" MaxLength="50" />
+    <Property Name="CELULAR" Type="varchar" MaxLength="10" />
+    <Property Name="TELEFONE" Type="varchar" MaxLength="10" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="50" />
+    <Property Name="CONTATO" Type="varchar" MaxLength="50" />
+    <Property Name="OBSERVACAO" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="BANCOESTUDOModelStoreContainer">
+    <EntitySet Name="TB_CLIENTE" EntityType="Self.TB_CLIENTE" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

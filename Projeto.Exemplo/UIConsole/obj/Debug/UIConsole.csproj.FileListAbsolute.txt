@@ -1,0 +1,10 @@
+C:\Projeto.Exemplo\UIConsole\bin\Debug\UIConsole.exe.config
+C:\Projeto.Exemplo\UIConsole\bin\Debug\UIConsole.exe
+C:\Projeto.Exemplo\UIConsole\bin\Debug\UIConsole.pdb
+C:\Projeto.Exemplo\UIConsole\bin\Debug\EntityFramework.dll
+C:\Projeto.Exemplo\UIConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projeto.Exemplo\UIConsole\bin\Debug\EntityFramework.xml
+C:\Projeto.Exemplo\UIConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projeto.Exemplo\UIConsole\obj\Debug\UIConsole.csprojResolveAssemblyReference.cache
+C:\Projeto.Exemplo\UIConsole\obj\Debug\UIConsole.exe
+C:\Projeto.Exemplo\UIConsole\obj\Debug\UIConsole.pdb

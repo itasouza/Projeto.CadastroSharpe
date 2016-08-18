@@ -1,0 +1,10 @@
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\Generico.EF.dll.config
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\Generico.EF.dll
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\Generico.EF.pdb
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\EntityFramework.dll
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\EntityFramework.xml
+C:\Projeto.Cadastro\Generico.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projeto.Cadastro\Generico.EF\obj\Debug\Generico.EF.csprojResolveAssemblyReference.cache
+C:\Projeto.Cadastro\Generico.EF\obj\Debug\Generico.EF.dll
+C:\Projeto.Cadastro\Generico.EF\obj\Debug\Generico.EF.pdb

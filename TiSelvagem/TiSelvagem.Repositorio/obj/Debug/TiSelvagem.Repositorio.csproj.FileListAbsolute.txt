@@ -1,0 +1,5 @@
+C:\TiSelvagem\TiSelvagem.Repositorio\bin\Debug\TiSelvagem.Repositorio.dll
+C:\TiSelvagem\TiSelvagem.Repositorio\bin\Debug\TiSelvagem.Repositorio.pdb
+C:\TiSelvagem\TiSelvagem.Repositorio\obj\Debug\TiSelvagem.Repositorio.csprojResolveAssemblyReference.cache
+C:\TiSelvagem\TiSelvagem.Repositorio\obj\Debug\TiSelvagem.Repositorio.dll
+C:\TiSelvagem\TiSelvagem.Repositorio\obj\Debug\TiSelvagem.Repositorio.pdb

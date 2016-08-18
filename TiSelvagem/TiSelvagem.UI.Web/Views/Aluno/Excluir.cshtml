@@ -1,0 +1,56 @@
+﻿@model TiSelvagem.Dominio.Aluno
+
+@{
+    ViewBag.Title = "Excluir Aluno";
+}
+
+
+
+<h3>Deseja realmente excluir este registro?</h3>
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.vIDALUNO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vIDALUNO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vNOME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vNOME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vMAE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vMAE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vDATA_NASCIMENTO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vDATA_NASCIMENTO)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-default" /> |
+            @Html.ActionLink("Cancelar", "Index")
+        </div>
+    }
+</div>
